@@ -1,0 +1,34 @@
+button {
+    border: slategrey solid 2px;
+    width: 120px;
+    height: 120px;
+    font-size: 25px;
+}
+article { 
+    margin-left: 750px;
+    margin-top: 100px;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-flow: row wrap;
+}
+h1 {
+    text-align: center;
+    color: midnightblue;
+    font-style: italic;
+    text-shadow: 1px 1px royalblue;
+    font-size: 40px;
+}
+
+div {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer {
+    font-size: 16px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
