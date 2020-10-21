@@ -2,17 +2,18 @@ button {
     border: slategrey solid 2px;
     width: 120px;
     height: 120px;
-    font-size: 25px;
+    font-size: 32px;
 }
 article { 
-    margin-left: 750px;
     margin-top: 100px;
     width: 360px;
     height: 360px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 h1 {
+    margin-top: 50px;
     text-align: center;
     color: midnightblue;
     font-style: italic;
@@ -20,15 +21,17 @@ h1 {
     font-size: 40px;
 }
 
-div {
-    font-size: 20px;
+.phrase {
+    font-size: 26px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 footer {
     font-size: 16px;
     text-align: center;
 }
 h2 {
+    margin-top: 50px;
     text-align: center;
 }
+
