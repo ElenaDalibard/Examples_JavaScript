@@ -1,19 +1,15 @@
 section {     
-    height: 610px;
-    width: 1000px;
-
-   }
-
-   section { display: flex;
+    height: 500px;
+    width: 820px;
+    display: flex;
     flex-flow: row wrap;
     margin-left: 25px;
-
-}
-
+   }
 
 .case {
-    height: 150px;
-    width: 245px;
+    height: 120px;
+    width: 200px;
+    margin: 1px;
     float: left;
     position: relative;
     border: solid 1px rgb(0, 0, 0);
@@ -30,15 +26,16 @@ section {
 
 }
 
-article, footer {
+article, aside {
     font-size: 20px;
     font-weight: bold;
     margin: 25px;
 }
 img {
     position: absolute;
-    height: 150px;
-    width: 245px;
+    height: 120px;
+    width: 200px;
+    margin: 1px;
     z-index: 1;
 }
 .noMask {

@@ -35,15 +35,15 @@ class Memory {
         let compteur = 0
         let tmp=undefined
         const compter = document.querySelector('span')
-        const victory = document.querySelector('footer')
+        const victory = document.querySelector('aside')
 
         this.grid.addEventListener('click', function (e) {
             if(!e.target.classList.contains("noMask")) {
                 e.target.classList.add("noMask")
                 if (!click1) {
+                    compter.innerText = compteur
                     if(e.target.getAttribute("data-id")==tmp.getAttribute("data-id")) {
                         compteurBon++
-                        compter.innerText = compteur
                         if (compteurBon == 8) {
                             victory.innerText="Vous avez gagné !!! Vous avez fait " + compteur + " essais"
                         }
