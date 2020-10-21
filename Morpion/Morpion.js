@@ -58,18 +58,18 @@ zoneJeu.addEventListener('click', function(e) {
         if(firstPlayer == true) {
             e.target.innerText = "X"
             joueur = 1
-            counter==1 ? winPhrase.innerHTML="<h2>Le jeu est fini, personne n'est gagné.</h2>" :  phrase2.innerText = "Joueur 2, joue avec O"
+            counter==1 ? winPhrase.innerHTML="<h2>Le jeu est fini, personne n'a gagné.</h2>" :  phrase2.innerText = "Joueur 2, joue avec O"
         }
         else {
             e.target.innerText = "O"
             joueur = 2
-            counter==1 ? winPhrase.innerHTML="<h2>Le jeu est fini, personne n'est gagné.</h2>" : phrase1.innerText = "Joueur 1, joue avec X"
+            counter==1 ? winPhrase.innerHTML="<h2>Le jeu est fini, personne n'a gagné.</h2>" : phrase1.innerText = "Joueur 1, joue avec X"
         }
         victoryTest()
         if(victoryTest()==true) {
             phrase1.innerText = ""
             phrase2.innerText = ""
-            winPhrase.innerHTML = "<h2>Victoire ! Joueur " + joueur + " à gagné !</h2>"
+            winPhrase.innerHTML = "<h2>Victoire ! Joueur " + joueur + " a gagné !</h2>"
         }
         firstPlayer = !firstPlayer
         counter--
